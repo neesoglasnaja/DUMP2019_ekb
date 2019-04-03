@@ -29,10 +29,19 @@
     <section id="" style="" class="slide  label-header black">
       <h2>О чем буду говорить?</h2>
       <ul>
-        <li>Как унифицировать code style (HTML, CSS, JS)</li>
+        <li>Что такое и зачем нужны стандарты разработки</li>
+        <li class="next">Как унифицировать code style (HTML, CSS, JS)</li>
         <li class="next">Как автоматизировать его проверку</li>
         <li class="next">Как внедрить проверку в CI</li>
       </ul><img src="pictures/cave-angle.png" class="place right cover height">
+    </section>
+    <section id="" style="" class="slide  label-header black">
+      <h2>Стандарты разработки</h2>
+      <ul>
+        <li>Guidelines</li>
+        <li>Styleguide</li>
+        <li>Code style</li>
+      </ul>
     </section>
     <section id="" style="" class="slide  black label-header clear"><img src="pictures/batman_vs_superman.jpg" class="cover width">
       <h2 class="place bottom">Guidelines&nbsp;&nbsp;&nbsp;VS&nbsp;&nbsp;&nbsp;Styleguide</h2>
@@ -193,7 +202,7 @@ module.exports = {
       <ul>
         <li>170 встроенных правил</li>
         <li class="next">Возможность написания и подключения плагинов</li>
-        <li class="next">Возможность расширения готовых конфигураций</li>
+        <li class="next">Возможность наследования и расширения конфигураций</li>
         <li class="next">Работает с препроцессорными кодом (SCSS, Less, PostCSS)</li>
       </ul>
     </section>
@@ -223,11 +232,6 @@ module.exports = {
     </section>
     <section id="" style="" class="slide  label-header black">
       <h2>WebStorm</h2><img src="pictures/webstorm-stylelint.png" alt="WebStorm Stylelint integration" style="margin-top: 50px" class="cover width">
-    </section>
-    <section id="" style="" class="slide">
-      <div class="place"><img src="pictures/stylefmt-logo.svg" alt="Stylefmt">
-        <p class="center"><a href="https://github.com/morishitter/stylefmt" class="link link-github">morishitter/stylefmt</a></p>
-      </div>
     </section>
     <section id="" style="" class="slide">
       <div data-content="gulp-stylelint" class="terminal">
@@ -277,6 +281,9 @@ module.exports = {
         <li><a href="https://www.npmjs.com/package/lesshint">lesshint</a></li>
         <li><a href="https://www.npmjs.com/package/stylint">stylint</a></li>
         <li><a href="https://www.npmjs.com/package/stylelint-selector-bem-pattern">stylelint-selector-bem-pattern</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://stylelint.io/user-guide/plugins/">stylelint.io/plugins</a></li>
       </ul><img src="pictures/dick-greyson-versions.jpg" alt="" style="width: 50%; margin: 50px;" class="place right bottom">
     </section>
     <section id="" style="" class="slide  label-header">
@@ -321,6 +328,9 @@ module.exports = {
       <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;"><img src="pictures/vim-logo.svg" alt="Vim" style="height: 150px; margin: 0px 30px;"><img src="pictures/emacs-logo.svg" alt="Emacs" style="height: 150px; margin: 0px 30px;"><img src="pictures/atom-logo.svg" alt="Atom" style="height: 150px; margin: 0px 30px;"><img src="pictures/vscode-logo.svg" alt="VSCode" style="height: 150px; margin: 10px 30px;"><img src="pictures/sublime-text-logo.png" alt="Sublime Text" style="height: 150px; margin: 10px 30px;"><img src="pictures/brackets-icon.svg" alt="Brackets" style="height: 150px; margin: 10px 30px;"></div>
     </section>
     <section id="" style="" class="slide">
+      <h2 style="font-size: 2em;" class="shout"><a href="https://github.com/hudochenkov/postcss-sorting" class="link link-github">hudochenkov/postcss-sorting</a></h2>
+    </section>
+    <section id="" style="" class="slide">
       <h2 style="font-size: 2em;" class="shout"><a href="https://github.com/davidhund/styleguide-generators#css-parsing-css-source" class="link link-github">davidhund/styleguide-generators</a></h2>
     </section>
     <section id="" style="" class="slide  black label-header">
@@ -337,7 +347,7 @@ module.exports = {
       <ul>
         <li>250+ встроенных правил</li>
         <li class="next">Возможность написания и подключения плагинов</li>
-        <li class="next">Возможность расширения готовых конфигураций</li>
+        <li class="next">Возможность наследования и расширения конфигураций</li>
         <li class="next">Поддерживает различные версии стандартов (ES5/ES6/ESNext)</li>
       </ul>
     </section>
@@ -413,11 +423,17 @@ module.exports = {
     <section id="" style="" class="slide  label-header black">
       <h2 style="margin: 0 105px;" class="shout">250+ правил?!</h2><img src="pictures/batman-what.png" class="place right cover height">
     </section>
+    <section id="" style="" class="slide">
+      <h2 style="font-size: 2em;" class="shout"><a href="https://github.com/dustinspecker/awesome-eslint" class="link link-github">dustinspecker/awesome-eslint</a></h2>
+    </section>
     <section id="" style="" class="slide  label-header">
       <h2>StandardJS</h2><img src="pictures/standardjs-logo.png" alt="StandardJS" width="50%" class="cover">
     </section>
     <section id="" style="" class="slide  label-header">
       <h2>Airbnb ESLint config</h2><img src="pictures/airbnb-eslint.png" alt="Airbnb ESLint" width="60%" style="margin-top: 50px" class="place">
+    </section>
+    <section id="" style="" class="slide">
+      <h2 style="font-size: 2em;" class="shout"><a href="https://www.npmjs.com/package/eslint-config-lovata" class="link link-npm">eslint-config-lovata</a></h2>
     </section>
     <section id="" style="" class="slide  label-header">
       <h2>А если не просто JS?</h2>
@@ -425,6 +441,9 @@ module.exports = {
         <li><a href="https://www.npmjs.com/package/babel-eslint">babel-eslint</a></li>
         <li><a href="https://www.npmjs.com/package/tslint">tslint</a></li>
         <li><a href="https://www.npmjs.com/package/eslint-plugin-flowtype">eslint-plugin-flowtype</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://github.com/SonarSource/SonarJS">SonarJS</a></li>
       </ul><img src="pictures/batgirl-costumes.png" alt="" style="width: 40%; margin: 50px;" class="place right bottom">
     </section>
     <section id="" style="" class="slide">
@@ -478,6 +497,11 @@ fi</code></pre>
     <section id="" style="" class="slide  clear black"><img src="pictures/git-flow-meme.jpg" class="cover height">
     </section>
     <section id="" style="" class="slide  clear"><img src="pictures/git-flow.png" class="cover height">
+    </section>
+    <section id="" style="" class="slide">
+      <div class="place"><img src="pictures/add-commit.png" style="width: 450px;">
+        <p style="font-size: 2em;"><a href="https://github.com/commitizen/cz-cli" class="link link-github">commitizen/cz-cli</a></p>
+      </div>
     </section>
     <section id="" style="" class="slide  clear"><img src="pictures/lego-batman.jpg" class="cover height">
     </section>
@@ -545,12 +569,13 @@ module.exports = {
       <h2>Материалы по теме</h2>
       <ul>
         <li>Кодстайл и насилие — Антон Немцев [<a href="https://www.youtube.com/watch?v=HZF3XRNOpGo">Youtube</a>]</li>
+        <li>Качество кода — Иван Ботанов [<a href="https://www.youtube.com/watch?v=dpkKf-Nkwcw">Youtube</a>]</li>
         <li>Как оптимизировать фронтенд — Мария Кабаш [<a href="https://www.youtube.com/watch?v=jcTD-zpY5RM">Youtube</a>]</li>
       </ul>
     </section>
     <section id="theend" style="" class="slide  cover label-header">
       <h2 class=" shout shrink">Вопросы?</h2>
-      <p class="end-link"><a href="http://bit.ly/Standards-MinskCSS" target="_blank" class="bigger">bit.ly/Standards-MinskCSS</a><br>Александра Шинкевич (<a href="https://twitter.com/neesoglasnaja" target="_blank">@neesoglasnaja</a>)</p><img src="pictures/batman-comics.jpg" class="cover"/>
+      <p class="end-link"><a href="http://bit.ly/Standards-DUMP2019" target="_blank" class="bigger">bit.ly/Standards-DUMP2019</a><br>Александра Шинкевич (<a href="https://twitter.com/neesoglasnaja" target="_blank">@neesoglasnaja</a>)</p><img src="pictures/batman-comics.jpg" class="cover"/>
     </section>
     <div class="progress"></div>
     <script src="shower/shower.min.js"></script>
